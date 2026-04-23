@@ -80,11 +80,11 @@ The shell continuously reads user input, parses it into commands and arguments, 
 - **Pipelines** are implemented using `pipe()`  
 - **Redirection** is managed using file descriptors (`dup2()`)  
 
----
 
 
 
----
+
+
 
 ## 🚀 Getting Started
 
@@ -92,14 +92,14 @@ The shell continuously reads user input, parses it into commands and arguments, 
 - GCC or compatible C compiler  
 - Unix-like environment (Linux, macOS, or WSL)  
 
----
+
 
 ### 🛠️ Build
 ```bash
 gcc -o minishell minishell.c
 ```
 
----
+
 
 ### ▶️ Run
 ```chmod +x ~/minishel
@@ -108,14 +108,14 @@ bash ~/minishell
 
 > ⚠️ Do NOT use `bash minishell` — this is a compiled C program, not a script.
 
----
+
 
 ## ⚠️ Limitations
 - Limited job control functionality  
 - No advanced scripting support  
 - Basic error handling  
 
----
+
 
 ## 🚀 Future Improvements
 - Add command history support  
@@ -123,7 +123,6 @@ bash ~/minishell
 - Improve error handling  
 - Extend job control features  
 
----
 
 ## 📚 Documentation
 Detailed explanations are available in the `docs/` directory.
