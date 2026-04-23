@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Features
+##Features
 - Execute both **built-in** and **external commands**
 - Support for **input/output redirection**
 - **Command pipelining** (`|`)
@@ -13,38 +13,36 @@
 
 ---
 
-## 🖼️ System Overview
+## System Overview
 ![System Dashboard](Images/SystemDashboard.jpg)
 
----
+##  Modules & Interfaces
 
-## 🧩 Modules & Interfaces
-
-### 📦 Archive Manager
+###  Archive Manager
 ![Archive Manager](Images/Archive_Manager.png)
 
-### 💾 Backup and Restore
+###  Backup and Restore
 ![Backup and Restore](Images/Backup_and_Restore.png)
 
-### 💽 Disk Usage Checker
+###  Disk Usage Checker
 ![Disk Usage Checker](Images/Disk_Usage_Checker.png)
 
-### 🔍 File Search Utility
+###  File Search Utility
 ![File Search Utility](Images/File_Search_Utility.png)
 
-### 📜 Log Viewer
+###  Log Viewer
 ![Log Viewer](Images/Log_Viewer.png)
 
-### 🌐 Network Tools
+###  Network Tools
 ![Network Tools](Images/Network_Tools.png)
 
-### 🔐 Password and Hash Tools
+###  Password and Hash Tools
 ![Password and Hash Tools](Images/Password_and_Hash_Tools.png)
 
-### ⚙️ Process Management
+###  Process Management
 ![Process Management](Images/Process_Management.png)
 
-### ℹ️ System Info
+###  System Info
 ![System Info](Images/SystemInfo.png)
 
 ---
@@ -72,7 +70,7 @@ mini-shell-os/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 The shell continuously reads user input, parses it into commands and arguments, and executes them accordingly.
 
 - **Built-in commands** are handled internally within the shell  
@@ -86,7 +84,7 @@ The shell continuously reads user input, parses it into commands and arguments, 
 
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 🔧 Prerequisites
 - GCC or compatible C compiler  
@@ -101,34 +99,34 @@ gcc -o minishell minishell.c
 
 
 
-### ▶️ Run
+###  Run
 ```chmod +x ~/minishel
 bash ~/minishell
 ```
 
-> ⚠️ Do NOT use `bash minishell` — this is a compiled C program, not a script.
+>  Do NOT use `bash minishell` — this is a compiled C program, not a script.
 
 
 
-## ⚠️ Limitations
+##  Limitations
 - Limited job control functionality  
 - No advanced scripting support  
 - Basic error handling  
 
 
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Add command history support  
 - Implement auto-completion  
 - Improve error handling  
 - Extend job control features  
 
 
-## 📚 Documentation
+##  Documentation
 Detailed explanations are available in the `docs/` directory.
 
 ---
 
-## 📄 License
+##  License
 This project is licensed under the MIT License.  
 See the [LICENSE](LICENSE) file for details.
